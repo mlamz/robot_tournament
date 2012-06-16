@@ -43,6 +43,9 @@ class Board
     rescue Map::PlayerCollision
       loser!(move, symbol, "attempted to step on another player")
       return
+    rescue Map::WallCollision
+      loser!(move, symbol, "attempted to step into a wall")
+      return
     rescue Map::IllegalMove
       loser!(move, symbol, "attempted to make an illegal move")
       return
