@@ -1,0 +1,8 @@
+#!/bin/sh
+
+./bin/create_tournament --name "battle royale" --rounds 5 --duration 10 --gameopts basic --game maze --force true
+
+./bin/server
+
+./bin/kick --repeat
+
