@@ -28,7 +28,7 @@ See the features for examples, or the folder 'examples'
 
 Use the following command to create and start a tournament:
 
-  ./bin/create_tournament --name "battle royale" --rounds 5 --duration 10 --gameopts basic --game maze --force true
+  ./bin/create_tournament --name "battle royale" --rounds 5 --duration 1 --game maze --force true
 
 You will also need to run
 
