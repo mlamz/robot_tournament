@@ -1,6 +1,6 @@
 #!/bin/sh
 
-./bin/create_tournament --name "battle royale" --rounds 5 --duration 1 --game maze --force true
+./bin/create_tournament --name "The 7dig robot battle royale" --rounds 1000 --duration 10 --game maze --force true
 
 ./bin/server
 
